@@ -1,4 +1,4 @@
-prefix        = "rancher"
+prefix        = "rancher_project"
 region        = "ap-southeast-1"
 aws_zone      = "ap-southeast-1a"
 image         = "ami-047126e50991d067b"
