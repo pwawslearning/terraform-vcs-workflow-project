@@ -77,4 +77,7 @@ resource "aws_instance" "server" {
   security_groups = [aws_security_group.rancher_sg_allowall.id]
   subnet_id       = aws_subnet.rancher_subnet.id
   user_data       = filebase64("${path.module}/user_data.sh")
+  tags = {
+    Name = "${var.prefix}-instance"
+  }
 }
