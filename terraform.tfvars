@@ -1,0 +1,5 @@
+prefix        = "rancher"
+region        = "ap-southeast-1"
+aws_zone      = "ap-southeast-1a"
+image         = "ami-047126e50991d067b"
+instance_type = "t2.micro"
